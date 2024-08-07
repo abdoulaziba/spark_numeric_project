@@ -308,12 +308,12 @@
   cursor: pointer;
 }
 
-.form .login_button:hover {
+.login_button:hover {
   transform: scale(1.03);
   /* box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px; */
 }
 
-.form .login_button:active {
+.login_button:active {
   transform: scale(0.95);
   /* box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px; */
 }
@@ -321,7 +321,7 @@
 .agreement {
   display: block;
   text-align: center;
-  margin-top: 15px;
+  margin: 15px;
 }
 
 .agreement a {
@@ -332,4 +332,18 @@
 
 .message {
   color: red;
+}
+
+.facture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdfcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vmax;
+  margin-left: 25%;
 }
